@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>admin</display-name>
+  
+  
+  
+   <servlet>
+    <servlet-name>UserRegistration</servlet-name>
+    <servlet-class>com.controller.UserRegistration</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>UserRegistration</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Location</servlet-name>
+  <servlet-class>com.controller.Location</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Location</servlet-name>
+  <url-pattern>/location</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ParticularUser</servlet-name>
+  <servlet-class>com.controller.ParticularUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ParticularUser</servlet-name>
+  <url-pattern>/particular</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Adminparticular</servlet-name>
+  <servlet-class>com.controller.Adminparticular</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Adminparticular</servlet-name>
+  <url-pattern>/adminparticular</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+ 
+</web-app>
